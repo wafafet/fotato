@@ -1,0 +1,2 @@
+# fotato
+project for internship
