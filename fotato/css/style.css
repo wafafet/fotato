@@ -1,0 +1,45 @@
+ul.nav a:hover { color: rgb(94, 94, 94) !important; }
+
+.food-search{
+   background-image: url(/Projectinternship/images/bg.jpg); 
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 200px;
+   
+}
+.form-control{
+   margin: 8%;
+}
+
+.Categories{
+   width: 80%;
+   margin:0 auto;
+}
+.wrapper{
+   display: flex;
+   margin:0 1%;
+}
+.box{
+   margin: 2%;
+}
+@media only screen and (max-width:1000px){
+   .Categories{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+   .wrapper{
+      display: inline-block;
+   }
+   .box>a>img{
+      width: 100%;
+   }
+   .container{
+      display: flex;
+      flex-direction: column;
+   }
+
+  
+}
