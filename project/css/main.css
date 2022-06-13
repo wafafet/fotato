@@ -1,0 +1,88 @@
+.image-responsive{
+   width: 100%;
+
+}
+.image-curve{
+   border-radius: 10%;
+}
+
+ul.nav a:hover { color: rgb(94, 94, 94) !important; }
+.btn a{
+ text-decoration: none;
+}
+
+.food-search{
+   background-image: url(/fotato/images/bg.jpg); 
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 200px;
+   
+}
+.form-control{
+   margin: 8%;
+}
+
+.Categories{
+   width: 80%;
+   margin:0 auto;
+}
+.wrapper{
+   display: flex;
+   margin:0 1%;
+}
+.box{
+   margin: 2%;
+}
+.food{
+   position: absolute;
+   left: 20%;
+   top: 70%;
+}
+.box>a>img{
+  border-radius: 4%;
+}
+
+.foodprice{
+   margin: 2% 0;
+   font-size: 1.2rem;
+}
+.foodimg{
+   width: 25%;
+   margin: 5%;
+}
+.fmenu{
+   display: grid;
+   grid-template-columns: repeat(2fr,1);
+   background-color: rgba(13, 29, 253, 0.25)
+}
+.fbox{
+background-color: red;
+width: 300px;
+}
+
+
+@media only screen and (max-width:1000px){
+   .Categories{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+   .wrapper{
+      display: inline-block;
+   }
+   .box>a>img{
+      width: 100%;
+   }
+   .container{
+      display: flex;
+      flex-direction: column;
+   }
+   .foodmenu-box{
+      display:inline-block;
+   }
+
+  
+}
+
